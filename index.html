@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <nav class="nav">
+            <div class="nav-title">
+                <h1>The Meal App</h1>
+            </div>
+            <div class="nav-fav-btn">
+                <button class="btn find-fav" onclick="showfav()">favroite</button>
+            </div>
+
+
+        </nav>
+        <div class="meal-wrapper">
+            <div class="meal-search">
+                <h2 class="title">Find Meal for your Ingregients</h2>
+
+
+                <div class="meal-search-box">
+                    <input type="text" class="search-content" placeholder="Enter ingridients here" id="search-input">
+                    <button type="submit" class="search-btn btn" id="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="meal-result">
+                <h2 id="search-item" class="title">Your Search results:</h2>
+            </div>
+
+            <div class="meal">
+                <!-- <div class="meal-item">
+                    <div class="meal-image">
+                        <img src="small1.jpg" alt="food">
+                    </div>
+                    <div class="meal-name">
+                        <h3>Mix veg</h3>
+                        <div class="fav-btn">
+                            <a href="#" class="recipe-btn">Get recipe</a>
+                            <i class="fa-solid fa-heart"></i>
+
+                        </div>
+
+                    </div>
+                </div> -->
+            </div>
+
+
+            <div class="meal-details">
+                <!-- recipe close btn -->
+                <button type="button" class=" btn recipe-close-btn" id="recipe-close-btn">
+                 <i class ="fas fa-times"></i>
+              </button>
+
+                <!-- recipe content -->
+                <div class="recipe-detail-content">
+                    <!-- <h2 class="recipe-title">Meal name here</h2>
+                    <p class="recipe-categorie">Categorie name</p>
+                    <div class="recipe-construct">
+                        <h3>Instruction:</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere libero deleniti neque odit harum suscipit maiores adipisci. Expedita labore laborum aspernatur dolorem unde voluptate, maxime dicta libero voluptatum debitis quo.</p>
+                    </div>
+                    <div class="recipe-meal-image">
+                        <img src="small1.jpg" alt="" style="width: 30%; height:20%;">
+                    </div>
+                    <div class="recipe-link">
+                        <a href="#" target="blank">watch video</a>
+                    </div> -->
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
